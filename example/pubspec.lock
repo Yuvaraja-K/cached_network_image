@@ -33,19 +33,19 @@ packages:
     source: path
     version: "3.3.0"
   cached_network_image_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../cached_network_image_platform_interface"
+      path: "../packages/cached_network_image_platform_interface"
       relative: true
     source: path
-    version: "3.0.0"
+    version: "0.0.0"
   cached_network_image_web:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../cached_network_image_web"
+      path: "../packages/cached_network_image_web"
       relative: true
     source: path
-    version: "1.1.0"
+    version: "0.0.0"
   characters:
     dependency: transitive
     description:
@@ -118,10 +118,11 @@ packages:
   flutter_cache_manager:
     dependency: transitive
     description:
-      name: flutter_cache_manager
-      sha256: "8207f27539deb83732fdda03e259349046a39a4c767269285f449ade355d54ba"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "47173b6ea1c82efced0faed79352fbadf568f575"
+      url: "https://github.com/Yuvaraja-K/flutter_cache_manager.git"
+    source: git
     version: "3.3.1"
   flutter_lints:
     dependency: "direct dev"

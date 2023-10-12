@@ -1,5 +1,0 @@
-# dependency_overrides:
-#   cached_network_image_platform_interface:
-#     path: packages/cached_network_image_platform_interface
-#   cached_network_image_web:
-#     path: packages/cached_network_image_web/
