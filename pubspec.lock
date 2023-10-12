@@ -20,16 +20,20 @@ packages:
   cached_network_image_platform_interface:
     dependency: "direct main"
     description:
-      path: "packages/cached_network_image_platform_interface"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "19d60e519dce54781098ac3a448c208df1cbcf3e"
+      url: "https://github.com/Yuvaraja-K/cached_network_image_platform_interface.git"
+    source: git
     version: "0.0.0"
   cached_network_image_web:
     dependency: "direct main"
     description:
-      path: "packages/cached_network_image_web"
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: "5e2f1043561f9ac9f5c418140b14e83b9a9a0650"
+      url: "https://github.com/Yuvaraja-K/cached_network_image_web.git"
+    source: git
     version: "0.0.0"
   characters:
     dependency: transitive
